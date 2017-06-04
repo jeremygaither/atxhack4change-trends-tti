@@ -15,7 +15,8 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className={cx('home')}>
-        <h1 className={cx('home__header')}>Welcome to react-webpack-node!</h1>
+        <h1 className={cx('home__header')}>TRENDS - Transportation Revenue Estimator and Needs Determination System</h1>
+        <p>The T.R.E.N.D.S. Model is designed to provide transportation planners, policy makers and the public with a tool to forecast revenues and expenses for the Texas Department of Transportation (TxDOT) for the period 2012 through 2050.</p>
       </div>
     );
   }

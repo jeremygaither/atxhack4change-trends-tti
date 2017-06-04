@@ -13,6 +13,7 @@ class Navigation extends Component {
     return (
       <nav className={cx('navigation')} role="navigation">
         <Link to="/" className={cx('item')} activeClassName={cx('active')}>Home</Link>
+        <Link to="/scenario" className={cx('item')} activeClassName={cx('active')}>Scenario</Link>
         <Link to="/about" className={cx('item')} activeClassName={cx('active')}>About</Link>
       </nav>
     );
